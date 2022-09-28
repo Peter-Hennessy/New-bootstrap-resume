@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #b62a20;
+    padding: 10px;
+}
+
+.grid-container > div {
+    color:antiquewhite;
+    text-align: center;
+    padding: 20, 60, 25, 25;
+    float:right;
+    font-size: 30px;
+}
+
